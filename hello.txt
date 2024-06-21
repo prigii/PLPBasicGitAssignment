@@ -1,1 +1,104 @@
 Hello, Git
+
+Requirements:
+
+- I already have a GitHub account.
+
+- I already have Git installed on my local machine.
+
+- I use Visual Studio Code.
+
+
+
+
+Step 1: Repository Setup
+
+1. GitHub Repository Creation:
+
+  - Logged in to GitHub account.
+
+  - Created a new repository on GitHub (called it "PLPBasicGitAssignment").
+
+  - Initialized it with a README file.
+
+
+
+Step 2: Local Setup
+
+2. Local Folder Setup:
+
+  - Created a new folder on my local machine ("PLPBasicGitAssignment").
+
+  - Opened a terminal and navigated to the created folder.
+
+
+
+3. Git Initialization:
+
+  - Initialized a new Git repository in my local folder.
+
+
+
+4. Connecting to GitHub:
+
+  - Linked my local repository to the GitHub repository I created in Task 1.
+
+   ```
+
+git remote add origin <repository-url>
+
+   ```
+
+   Replaced `<repository-url>` with the actual URL of my GitHub repository.
+
+
+
+Step 3: Making Changes
+
+5. Created a File:
+
+  - Inside my local folder, created a new text file ( `hello.txt`).
+
+  - Added a simple text message ("Hello, Git!").
+
+
+
+6. Committing Changes:
+
+  - Staged the changes.
+
+   ```bash
+
+   git add hello.txt
+
+   ```
+
+  - Commited the changes.
+
+   ```bash
+
+   git commit -m "Added hello.txt and readme files"
+
+   ```
+
+
+
+Step 4: Pushing to GitHub
+
+7. Pushing to GitHub:
+
+  - Pushed the committed changes to my GitHub repository.
+
+   ```bash
+
+   git push -u origin master
+
+   ```
+
+
+
+Step 5: Verification
+
+8. Verified on GitHub:
+
+  - Visited my GitHub repository in a web browser and confirm that the `hello.txt` and README.md files and commit message are visible.
